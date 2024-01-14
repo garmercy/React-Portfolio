@@ -172,6 +172,11 @@
   font-size: 30px;
 }
 
+/* ------------RESUME STYLE------------ */
+h4{
+  color: rgb(0, 225, 255);
+}
+
 /* ----------------PHONE MEDIA--------------- */
 @media only screen and (max-width: 700px) {
   /* NAVBAR PHONE STYLE */
