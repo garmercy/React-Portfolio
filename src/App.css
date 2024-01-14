@@ -9,10 +9,7 @@
     text-align: center;
   }
   
-  h1{
-    color: rgb(0, 225, 255);
-  }
-  
+ 
   a{
     text-decoration: none;
   }
@@ -30,7 +27,11 @@
     padding: 20px;
   }
   /* -----------NAVBAR STYLE------------ */
-#link1{
+  #titleH1{
+    color: rgb(0, 225, 255);
+  }
+  
+  #link1{
   background-color: black;
   border: none;
   padding: 0px;

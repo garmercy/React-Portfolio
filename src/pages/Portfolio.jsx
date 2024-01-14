@@ -9,7 +9,7 @@ export default function Portfolio() {
     return (
     <section id="portfolio" class=" py-5">
     <div>
-      <h1 id='h1Portfolio' class="text-center display-4">Portfolio</h1>
+      <h1 id='titleH1' class="text-center display-4">Portfolio</h1>
       <div class="row">
       <div class="col-lg-4 col-md-6 mb-4">
           <div id='containerCardPortfolio' class="card h-100">

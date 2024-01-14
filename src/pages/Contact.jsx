@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <div className="container mt-5">
-    <h1>Contact Us</h1>
+    <h1 id='titleH1'>Contact Us</h1>
     <form>
       <div className="mb-3">
         <label htmlFor="name" className="form-label" id="contactForm">

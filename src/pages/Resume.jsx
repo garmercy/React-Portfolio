@@ -2,7 +2,7 @@ import MyPDF from '../assets/img/resume.jpg';
 export default function Resume() {
   return (
     <div id="containerFrontAbout">
-      <h1>Resume</h1>
+      <h1 id='titleH1'>Resume</h1>
       <a id='resumeLink' href={MyPDF} download="Resume.jpg">Click to download my resume.</a>   
       <div class="col-lg-12">
         <h2 id="h1AboutMe" >Objective:</h2> 
