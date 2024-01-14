@@ -114,7 +114,17 @@
   border-radius: 35px;
 }
 
- 
+#githubIcon:hover{
+  color:#d864ffaa ;
+  transition: 0.3s;
+}
+
+#photo{
+  height: 100%;
+  width: 70%;
+}
+
+
 #icon{
   width: 10%;
   height: 15%;
@@ -123,8 +133,8 @@
 }
 
 #containerFrontAbout{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 70px;
+  margin-bottom: 80px;
 }
 
 #appIcon{
@@ -134,4 +144,34 @@
 
 #containeMiniApp{
   margin-right: 23px;
+}
+/* ----------------PHONE MEDIA--------------- */
+@media only screen and (max-width: 700px) {
+  /* NAVBAR PHONE STYLE */
+  #logoContainer{
+    padding: 5px;
+    border: none;
+    display:block;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+  }
+  
+  #containerHeader{
+    justify-content: center;
+  }
+  
+  #links{
+    justify-content: center;
+  }
+
+  /* ABOUT ME PHONE STYLE */
+  #appsContainer{
+    justify-content: center;
+  }
+  
+  #containerHomeImg{
+    margin-top: 30px;
+  }
+
 }
