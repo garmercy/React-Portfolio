@@ -209,10 +209,16 @@ border: solid rgb(0, 225, 255) 1px;
   color: rgb(0, 225, 255);
 }
 
-#titleCard:hover{
+#linkPortfolio{
+font-size: 20px;
+color: rgb(0, 225, 255);
+}
+
+#linkPortfolio:hover{
   color:#d864ffaa ;
   transition: 0.3s;
 }
+
 #textCard{
   font-size: 20px;
   text-align: justify;
