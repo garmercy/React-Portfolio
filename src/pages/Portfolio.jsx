@@ -62,7 +62,8 @@ export default function Portfolio() {
           <img src={photo1} alt="logo" />
             <div id='containerTextCard' class="card-body">
                 <h2 id='titleCard' class="card-title">Work Day Scheduler</h2>
-                <p id='textCard' class="card-text">description</p>
+                <p id='textCard' class="card-text">It's a calendar apllication build that allows an user to save events for each hour of a typical working day (9am–5pm).
+               </p>
                 <div>
                   <a id='linkPortfolio' href="https://garmercy.github.io/Work-Day-Scheduler/">Deployed application</a>
                 </div>
