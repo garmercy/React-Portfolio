@@ -176,6 +176,13 @@
 h4{
   color: rgb(0, 225, 255);
 }
+#resumeLink{
+  font-size: 20px;
+  color: rgb(0, 225, 255);
+}
+#resumeLink:hover{
+  color: #d864ffaa;
+}
 /* ------------PORTFOLIO STYLE-------------- */
 .display-4{
   border-radius: 35px;
