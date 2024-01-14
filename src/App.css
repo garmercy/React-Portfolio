@@ -176,6 +176,46 @@
 h4{
   color: rgb(0, 225, 255);
 }
+/* ------------PORTFOLIO STYLE-------------- */
+.display-4{
+  border-radius: 35px;
+}
+
+/* Zoom-in effect for portfolio items */
+#portfolio .card {
+  transition: transform 0.3s ease-out;
+}
+
+#portfolio .card:hover {
+  transform: scale(1.1);
+}
+
+#h1Portfolio{
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: 40px;
+}
+
+#containerTextCard{
+border: solid rgb(0, 225, 255) 1px;
+}
+
+#containerCardPortfolio{
+  border: solid rgb(0, 225, 255) 1px;
+  border-radius: 0px;
+}
+
+#titleCard{
+  color: rgb(0, 225, 255);
+}
+
+#titleCard:hover{
+  color:#d864ffaa ;
+  transition: 0.3s;
+}
+#textCard{
+  font-size: 20px;
+}
 
 /* ----------------PHONE MEDIA--------------- */
 @media only screen and (max-width: 700px) {
