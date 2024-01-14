@@ -126,3 +126,12 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+#appIcon{
+  height: 50px;
+  width: 50px;
+}
+
+#containeMiniApp{
+  margin-right: 23px;
+}
