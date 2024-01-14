@@ -8,7 +8,7 @@ export default function About() {
           <h1 id='titleH1' class="display-4">Welcome to my portfolio </h1>
           <h2 id="typed-text" class="display-4">I'm garmercy</h2>
           <h1 id='titleH1' >Full Stack Developer, Front End Developer, Mobile Developer</h1>
-          <a href="https://github.com/garmercy"><h2 id='githubIcon'>Check my work
+          <a id='linkNdec' href="https://github.com/garmercy"><h2 id='githubIcon'>Check my work
             <img src={icon} alt="logo" id='icon'/></h2>
           </a>
         </div>
