@@ -1,0 +1,32 @@
+/* ---------GENERAL STYLE---------- */
+*{
+    background-color: black;
+    font-family: 'Play', sans-serif;
+  }
+  
+  #root {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h1{
+    color: rgb(0, 225, 255);
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  p{
+    color: white;
+  }
+  
+  .row{
+    border-radius: 35px;
+  }
+  
+  .container{
+    border-radius: 35px;
+    padding: 20px;
+  }
+  
