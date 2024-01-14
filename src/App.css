@@ -215,6 +215,7 @@ border: solid rgb(0, 225, 255) 1px;
 }
 #textCard{
   font-size: 20px;
+  text-align: justify;
 }
 
 /* ----------------PHONE MEDIA--------------- */

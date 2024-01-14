@@ -1,6 +1,6 @@
 export default function Resume() {
-    return (
-      <div>
+  return (
+    <div id="containerFrontAbout">
       <h1>Resume</h1>
       <div class="col-lg-12">
         <h2 id="h1AboutMe" >Objective:</h2> 
