@@ -119,6 +119,9 @@
   transition: 0.3s;
 }
 
+#githubIcon{
+  color: white;
+}
 #photo{
   height: 100%;
   width: 70%;
@@ -145,6 +148,19 @@
 #containeMiniApp{
   margin-right: 23px;
 }
+
+/* -----------FOOTER------------- */
+#iconFooter{
+  height: 50px;
+  width: 50px;
+  }
+  
+#footerSection{
+  text-align: center;
+  background-color: black;
+  border-top: double rgb(34, 34, 34) 2px;
+}
+
 /* ----------------PHONE MEDIA--------------- */
 @media only screen and (max-width: 700px) {
   /* NAVBAR PHONE STYLE */
