@@ -149,6 +149,9 @@
   margin-right: 23px;
 }
 
+.logo:hover {
+  filter: drop-shadow(0 0 2em #d864ffaa);
+}
 /* -----------FOOTER------------- */
 #iconFooter{
   height: 50px;

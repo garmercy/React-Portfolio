@@ -8,7 +8,18 @@ function NavTabs() {
   return (
     
     <nav class="navbar navbar-default" role="navigation" id='containerHeader'>
-          <img src={logo} alt="logo" class='logo' />
+          
+      <ul className="nav nav-tabs" id='logoContainer'>
+        <li className="nav-item">
+          <Link
+            to="/About"
+            // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+            // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+            className={currentPage === '/' ? 'nav-link active' : 'nav-link'} id='link1'
+          ><img src={logo} alt="logo" class='logo' />
+          </Link>
+        </li>
+      </ul>
       <ul className="nav nav-tabs" id='links'>
         <li className="nav-item">
           <Link
