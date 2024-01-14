@@ -29,4 +29,37 @@
     border-radius: 35px;
     padding: 20px;
   }
+  /* -----------NAVBAR STYLE------------ */
+#link1{
+  background-color: black;
+  border: none;
+  padding: 0px;
+}
+  
+#link2{
+  background-color: black;
+  color: rgb(0, 225, 255);
+  border: none;
+  font-size: 20px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+  
+#link2:hover{
+  filter: drop-shadow(0 0 2em #d864ffaa);
+  color: rgb(0, 225, 255) ;
+  background-color: #d864ffaa;
+  transition: 0.5s;
+  font-weight: bolder;
+}
+
+.logo {
+  height: 4em;
+  width: 10em;
+  padding: 0px;
+  will-change: filter;
+  transition: filter 300ms;
+  border-radius: 5px;
+  margin: 0px;
+}
   
